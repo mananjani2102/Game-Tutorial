@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Basic Form Example</title>
+  </head>
+  <body>
+    <style>
+        body{
+            background-color: rgb(96, 176, 162);
+        }
+        .container{
+            justify-self: center;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: #ffffff;
+            margin-top: 150px;
+            padding: 10px 30px 30px 25px;
+            box-shadow: 10px 10px 10px rgba(59, 55, 55, 0.5);
+        }
+        input{
+            width: 260px;
+            height: 20px;
+        }
+        button{
+            border: none;
+            background-color: #4e7ede;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 267px;
+            height: 27px;
+        }
+    </style>
+    <div class="container">
+        <h1>Registration Form</h1>
+
+    <label for="nameInput">Name:</label><br>
+    <input id="nameInput" type="text" />
+
+    <br /><br />
+
+    <label for="emailInput">Email:</label><br>
+    <input id="emailInput" type="email" />
+
+    <br /><br />
+
+    <label for="ageInput">Age:</label><br>
+    <input id="ageInput" type="number" />
+
+    <br /><br />
+
+    <button id="submitBtn">Submit</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
